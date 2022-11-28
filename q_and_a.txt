@@ -56,15 +56,21 @@ JavaScript Syntax
 JavaScript for the Web
 
     What is the back-end responsible for?
+math. algorothims. 
 
     What is the front-end responsible for?
+looks. 
 
     What is the syntax for including inline JavaScript in your HTML file?
+<script> console.log('Hello, world!'); </script>
 
     What is the syntax for including a JavaScript file in your HTML?
+<script src="static/helloWorld.js"></script>
 
     What is the DOM? What does DOM stand for?
-
+DOM is the tree of html object….DOM is unhidden front end ventriloquism…its the puppetry of HTML via JS…
+change a lil here dynamically to get a whole lot of interactivity  done
+    
     Know the terms for relationships in the DOM:
 
         parent
@@ -77,11 +83,20 @@ JavaScript for the Web
 
         ancestor
 
-    How do you retrieve elements in the DOM?
 
-        What’s the difference between document.querySelector() and document.querySelectorAll()?
+How do you retrieve elements in the DOM?
+document.querySelector(selector):
+Return one HTMLElement object that matches the selector
+
+document.querySelectorAll(selector):
+Return a collection of HTMLElement objects that match the selector
+
+
+    What’s the difference between document.querySelector() and document.querySelectorAll()?
+one gets a singular element in html doc, and the latter gets all elements with the selector
 
     How do you use document.querySelector?
+you use it in function calls in JS…
 
     Methods and attributes to know for manipulating the DOM:
 
@@ -111,6 +126,27 @@ JavaScript for the Web
 
     How do you prevent a form from submitting on a “submit” event?
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
 AJAX
 
     Why would you make an AJAX request instead of a regular server request?
